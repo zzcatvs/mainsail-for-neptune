@@ -31,6 +31,7 @@ sudo bash ~/mainsail-for-neptune/uninstall.sh
 ```
 
 5.If you don't want to run fluid.
+
 *stop fluidd：*
 
 ```
