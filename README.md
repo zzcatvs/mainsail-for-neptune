@@ -29,3 +29,19 @@ sudo bash ~/mainsail-for-neptune/install.sh
 ```
 sudo bash ~/mainsail-for-neptune/uninstall.sh
 ```
+
+5.If you don't want to run fluid.
+*stop fluidd：*
+
+```
+sudo rm -f /etc/nginx/sites-enabled/fluidd
+sudo systemctl restart nginx
+```
+
+*start fluidd:*
+
+```
+sudo ln -s /etc/nginx/sites-available/fluidd /etc/nginx/sites-enabled/
+sudo systemctl restart nginx
+```
+
